@@ -1,6 +1,7 @@
 import express from 'express';
+import type { RequestHandler } from 'express';
 import cors from 'cors';
-import helmet from 'helmet';
+import helmetModule from 'helmet';
 import compression from 'compression';
 import { healthRoutes } from './interfaces/http/routes/health.routes.js';
 import { errorHandler } from './core/errors/error.handler.js';
@@ -9,6 +10,8 @@ import { apiRoutes } from './interfaces/http/routes/index.js';
 import { docsRoutes } from './interfaces/http/routes/docs.routes.js';
 import { response } from './core/response/response.formatter.js';
 export const app = express();
+// Helmet بيأمّن هيدرز HTTP، والـ cast هنا بيحل اختلاف تعريفات ESM/CJS بين بيئة Vercel ونسخة المكتبة.
+const helmet = (helmetModule as unknown as { default?: () => RequestHandler }).default ?? (helmetModule as unknown as () => RequestHandler);
 app.use(helmet()); app.use(cors()); app.use(compression()); app.use(express.json({ limit: '1mb' })); app.use(requestContext);
 app.get('/api/v1', (_req, res) => res.json(response.success({ name: 'B-Backend', version: '1.0.0', modules: ['tenants','users','entities','accounting'] })));
 app.use('/health', healthRoutes);

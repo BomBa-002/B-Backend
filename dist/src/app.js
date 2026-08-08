@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import helmet from 'helmet';
+import helmetModule from 'helmet';
 import compression from 'compression';
 import { healthRoutes } from './interfaces/http/routes/health.routes.js';
 import { errorHandler } from './core/errors/error.handler.js';
@@ -9,6 +9,8 @@ import { apiRoutes } from './interfaces/http/routes/index.js';
 import { docsRoutes } from './interfaces/http/routes/docs.routes.js';
 import { response } from './core/response/response.formatter.js';
 export const app = express();
+// Helmet بيأمّن هيدرز HTTP، والـ cast هنا بيحل اختلاف تعريفات ESM/CJS بين بيئة Vercel ونسخة المكتبة.
+const helmet = helmetModule.default ?? helmetModule;
 app.use(helmet());
 app.use(cors());
 app.use(compression());

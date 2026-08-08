@@ -9,3 +9,6 @@
 {"channel":"access","durationMs":3,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/openapi.json","requestId":"54e3e0ed-9dab-46ca-876d-6f0fa274519d","status":200,"timestamp":"2026-08-08T06:40:58.229Z"}
 {"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"a5b82e63-f4b9-4bcb-b53e-41945bbd24ca","status":200,"timestamp":"2026-08-08T06:40:58.238Z"}
 {"channel":"access","durationMs":3,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"54aba17f-5878-4ae4-bae3-76269008f48b","status":200,"timestamp":"2026-08-08T06:40:58.253Z"}
+{"channel":"access","durationMs":5,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/openapi.json","requestId":"30cd81bd-3482-4cd8-8055-b66a7d37862b","status":200,"timestamp":"2026-08-08T07:05:47.346Z"}
+{"channel":"access","durationMs":4,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"278328a0-fb9e-4922-a373-9f5129849c66","status":200,"timestamp":"2026-08-08T07:05:47.351Z"}
+{"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"43830d9e-2d5b-4b31-9a36-d4d6955d1191","status":200,"timestamp":"2026-08-08T07:05:47.356Z"}
