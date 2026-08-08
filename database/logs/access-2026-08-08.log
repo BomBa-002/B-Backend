@@ -3,3 +3,9 @@
 {"channel":"access","durationMs":5,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"90a86dd4-d37f-406f-85a3-7b737da2bcaf","status":200,"timestamp":"2026-08-08T05:16:12.359Z"}
 {"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/api/v1","requestId":"6f7cb416-d17b-471e-ba4a-4d385738b814","status":200,"timestamp":"2026-08-08T05:16:12.364Z"}
 {"level":"info","message":"إغلاق هادي للسيرفر","signal":"SIGTERM","timestamp":"2026-08-08T05:16:12.365Z"}
+{"channel":"access","durationMs":4,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/openapi.json","requestId":"2af93f44-a046-481a-bead-9bec27256a7e","status":200,"timestamp":"2026-08-08T06:40:40.915Z"}
+{"channel":"access","durationMs":4,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"22e257d4-fe84-418f-bbf7-048731d71440","status":200,"timestamp":"2026-08-08T06:40:40.925Z"}
+{"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"df1e2a1c-ce2d-47b8-990b-c7c953c381d3","status":200,"timestamp":"2026-08-08T06:40:40.929Z"}
+{"channel":"access","durationMs":3,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/openapi.json","requestId":"54e3e0ed-9dab-46ca-876d-6f0fa274519d","status":200,"timestamp":"2026-08-08T06:40:58.229Z"}
+{"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"a5b82e63-f4b9-4bcb-b53e-41945bbd24ca","status":200,"timestamp":"2026-08-08T06:40:58.238Z"}
+{"channel":"access","durationMs":3,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"54aba17f-5878-4ae4-bae3-76269008f48b","status":200,"timestamp":"2026-08-08T06:40:58.253Z"}
