@@ -1,0 +1,5 @@
+{"channel":"access","durationMs":5,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"bb9e507f-96c3-46b1-942d-eac86339f238","status":200,"timestamp":"2026-08-08T05:16:09.211Z"}
+{"environment":"development","level":"info","message":"السيرفر اشتغل ومش هيقع من خطأ عابر","port":4100,"timestamp":"2026-08-08T05:16:11.599Z"}
+{"channel":"access","durationMs":5,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/","requestId":"90a86dd4-d37f-406f-85a3-7b737da2bcaf","status":200,"timestamp":"2026-08-08T05:16:12.359Z"}
+{"channel":"access","durationMs":1,"level":"info","message":"طلب HTTP خلص","method":"GET","path":"/api/v1","requestId":"6f7cb416-d17b-471e-ba4a-4d385738b814","status":200,"timestamp":"2026-08-08T05:16:12.364Z"}
+{"level":"info","message":"إغلاق هادي للسيرفر","signal":"SIGTERM","timestamp":"2026-08-08T05:16:12.365Z"}

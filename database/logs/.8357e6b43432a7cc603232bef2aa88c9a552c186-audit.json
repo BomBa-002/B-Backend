@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/vercel/share/v0-project/database/logs/.8357e6b43432a7cc603232bef2aa88c9a552c186-audit.json",
+    "files": [
+        {
+            "date": 1786166169126,
+            "name": "/vercel/share/v0-project/database/logs/access-2026-08-08.log",
+            "hash": "e20b7ba8093229bc6785b6a19b8d17b5561ca95f0288621a55e862930f5a8108"
+        }
+    ],
+    "hashType": "sha256"
+}
